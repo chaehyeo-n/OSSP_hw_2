@@ -4,12 +4,12 @@ using namespace std;
 int main()
 {
 	string name, number;
-	cout << "ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”: ";
 	cin >> name;
-	cout << "ÇĞ¹øÀ» ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "í•™ë²ˆì„ ì…ë ¥í•˜ì„¸ìš”: ";
 	cin >> number;
 	
-	cout << endl << "<Ãâ·Â>" << endl;
-	cout << "ÀÌ¸§: " << name << endl;
-	cout << "ÇĞ¹ø: " << number << endl;
+	cout << endl << "<ì¶œë ¥>" << endl;
+	cout << "ì´ë¦„: " << name << endl;
+	cout << "í•™ë²ˆ: " << number << endl;
 }
